@@ -1,0 +1,39 @@
+//  Default background colors 
+$bg1: #fbfbfb;
+$bg2: #716969;
+$bg3: #2d2e2e;
+$bg4: #1e1f1f;
+$bg5: #0f0f0f;
+$bg6: #bcabae;
+
+
+
+
+// Junai title font
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+$junaiTitle: 'Permanent Marker', cursive;
+
+// Information font 
+// Weight: 200, 400, 600, 800
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;400;600;800&display=swap');
+
+$infoFont: 'Encode Sans SC', sans-serif;
+
+// body Default Font
+// 100, 300i, 700
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
+
+$defaultFont: 'Roboto', sans-serif;
+
+
+
+
+
+@mixin flexCent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};

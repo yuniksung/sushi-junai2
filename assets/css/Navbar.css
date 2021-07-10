@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;400;600;800&display=swap");
+.navbar-container {
+  width: 100vw;
+  height: 7vh;
+  background-color: rgba(30, 31, 31, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+.navbar-container ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-container ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navbar-container ul li a {
+  text-decoration: none;
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+.navbar-container button {
+  cursor: pointer;
+  color: #fbfbfb;
+  font-family: "Encode Sans SC", sans-serif;
+  background-color: transparent;
+  border: 1px solid #fbfbfb;
+  margin: 0 20px;
+  padding: 5px 10px;
+}
+
+.navbar-container button:hover {
+  color: #bcabae;
+  border: 1px solid #bcabae;
+}
+/*# sourceMappingURL=Navbar.css.map */
